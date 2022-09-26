@@ -9,7 +9,7 @@ A `node:http` middleware for working with a JSON RPC style worker/daemon.
 ## Installation
 
 ```sh
-$ npm install minrpc
+$ npm install @barelyhuman/minrpc
 ```
 
 ## Usage
