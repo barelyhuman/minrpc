@@ -9,6 +9,10 @@
   "publishConfig": {
     "access": "public"
   },
+  "files": [
+    "src",
+    "dist"
+  ],
   "scripts": {
     "build": "microbundle build --raw --generateTypes -f cjs,esm",
     "watch": "yarn build --watch",
