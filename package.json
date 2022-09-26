@@ -1,0 +1,24 @@
+{
+  "name": "@barelyhuman/minrpc",
+  "version": "0.1.0",
+  "license": "MIT",
+  "module": "dist/index.module.js",
+  "main": "dist/index.js",
+  "source": "src/index.js",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "microbundle build --raw --generateTypes -f cjs,esm",
+    "watch": "yarn build --watch",
+    "next": "bumpp --commit --tag"
+  },
+  "prettier": "@barelyhuman/prettier-config",
+  "devDependencies": {
+    "@barelyhuman/prettier-config": "^1.1.0",
+    "bumpp": "^8.2.1",
+    "microbundle": "^0.15.1",
+    "prettier": "^2.7.1"
+  }
+}
