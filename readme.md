@@ -82,4 +82,4 @@ maintain consistency on both sides, you send and receive JSON serializable data
 
 ## License
 
-[MIT](license) &copy [Reaper](https://reaper.is)
+[MIT](license) &copy; [Reaper](https://reaper.is)
